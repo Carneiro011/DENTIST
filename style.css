@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    font-family: ".sulphur-point-bold";
+    color: white; /* Cor do texto como branco */
+    background-color: #02113f; /* Fundo azul escuro */
+}
+
+hr {
+    margin: 10px;
+    border-color: white; /* Se o <hr> for visível, mudar a cor da linha para branco */
+}
+
+nav {
+    background-color: #02113f; /* Fundo azul escuro */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: white; /* Cor do texto dentro de nav */
+}
+
+nav ul {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #02113f; /* Fundo azul escuro no ul */
+}
+
+.div-centralizada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #02113f; /* Fundo azul escuro */
+    width: 100%;
+    color: white; /* Garantir que o texto dentro da div-centralizada seja branco */
+}
+
+nav ul li {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav ul li.logo-item {
+    flex-grow: 0; /* Aumentar o espaço ao redor do item do logo */
+}
+
+nav ul li:hover {
+    background-color: #02113f; /* Fundo escuro ao passar o mouse */
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255); /* Cor do texto na barra de navegação */
+    padding: 15px;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: rgb(228, 211, 57);  /* Cor de pré-seleção do texto na barra */
+}
+
+.trap {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-image: url('./../img/DENTE.png'); /* Use o caminho da sua imagem PNG */
+    background-size: contain; /* Ajusta o tamanho da imagem para caber dentro da div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+.trap p {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    color: white; /* Texto branco dentro da trap */
+}
+
+.div-foto {
+    background-color: #02113f; /* Fundo azul escuro */
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 500px;
+    background-image: url('./../img/capa-home.jpeg'); /* Caminho da imagem */
+    background-size: cover;  /* Redimensiona a imagem para cobrir toda a div */
+    background-position: center;  /* Centraliza a imagem no fundo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+.div-texto-inicial {
+    background-color: #e95211; /* Cor de fundo vermelho */
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 40%;
+    border-top-left-radius: 0px; /* Arredondar bordas laterais */
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    color: white; /* Cor do texto dentro da div-texto-inicial */
+}
+
+.paragrafo_acima {
+    color: rgb(255, 255, 255); /* Alterado para branco */
+    text-align: left;
+    margin: 40px;  /* Ajuste o valor da margem para reduzir a área ocupada */
+    padding: 20px;  /* Ajuste o valor do preenchimento para reduzir o espaço interno */
+    font-size: 27px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+.div-servicos {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: #02113f; /* Fundo azul escuro */
+    width: 100%;
+    color: white; /* Cor do texto em div-servicos */
+}
+
+.p-servicos{
+    text-align: left;
+    margin: 10px;  /* Ajuste o valor da margem para reduzir a área ocupada */
+    padding: 5px;
+    color: white; /* Garantir que o texto seja branco */
+}
+
+.nav_bgcolor{
+    background-color: #02113f; /* Fundo azul escuro */
+}
+
+.texto-servico-padding{
+    padding: 0;
+    margin: 0;
+    color: rgb(194, 194, 194); /* Cor do texto */
+}
+
+nav.nav_bgcolor {
+    display: flex;
+    justify-content: space-around; /* Espaçamento uniforme entre os divs */
+}
+
+nav div {
+    display: flex;
+    flex-direction: column;
+    align-items: top; /* Centraliza os itens dentro de cada div */
+    text-align: top; /* Centraliza o texto */
+    justify-content: top;
+}
+
+nav div p {
+    margin: 5px 0; /* Controla o espaçamento entre os parágrafos */
+    color: white; /* Cor do texto */
+}
+
+.div-align-left{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: #02113f; /* Fundo azul escuro */
+    width: 100%;
+    color: white; /* Garantir que o texto dentro de div-align-left seja branco */
+}
+
+h2 {
+    margin: 10px;
+    color: white !important; /* Garantir que o h2 tenha a cor branca */
+}
+
+.parceiros-p{
+    margin: 12px;
+    color: white; /* Garantir que o texto seja branco */
+    width: 70%;
+    text-align: left;
+}
